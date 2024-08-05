@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.action.maven.MouseOverActionTest">
+        <methods>
+          <include name="mouseOverAction"/>
+        </methods>
+      </class> <!-- com.action.maven.MouseOverActionTest -->
+      <class name="com.actin.maven2.Action2Test">
+        <methods>
+          <include name="action"/>
+        </methods>
+      </class> <!-- com.actin.maven2.Action2Test -->
+      <class name="com.action.maven3.Action3Test">
+        <methods>
+          <include name="action3"/>
+        </methods>
+      </class> <!-- com.action.maven3.Action3Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
